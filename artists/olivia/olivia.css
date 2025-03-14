@@ -1,6 +1,131 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    color: #253061;
+    color: #3255a4;
     background: #ede9e1;
+}
+
+ul{
+    list-style-type: none; /* Removes bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+} 
+
+.slide img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 12px;
+    /* I asked ChatGPT how to put fadeing on the edges of the images: */
+    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 90%);
+            mask-image: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 90%);
+   
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+    color: #ede9e1;
+    background-color: #3255a4;
+}
+
+.next {
+    right: 10px;
+    color: #ede9e1;
+    background-color: #3255a4;
+}
+
+.songs-list {
+    display: none;
+    margin-left: 20px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    font-size: 20px;
+}
+h3:hover{
+    text-decoration: underline;
+    box-shadow: 0 8px 16px rgba(176, 10, 127, 0.1);
+    cursor: pointer;
+}
+
+.sabrina-before-fame, .sabrina-awards{
+    gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    height: 300px;
+    padding: 20px;  
+    view-timeline-name: --image-fade;
+    animation: fadeIn linear forwards;
+    animation-timeline: --image-fade;
+    animation-range: entry 0% cover 40%;
+    /* Starts fading at 0% of viewport, fully visible by 40% */
+}
+
+.sabrina-breakthrough, .sabrina-tour{
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    height: 300px;
+    padding: 20px; 
+    margin-left: 100px;
+    view-timeline-name: --image-fade;
+    animation: fadeIn linear forwards;
+    animation-timeline: --image-fade;
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.paragraphs{
+    float: right;
+    position: relative;
+}
+
+#break{
+    width: 100%;
+    height: 200px;
+}
+#break2{
+    width: 100%;
+    height: 50px;
 }

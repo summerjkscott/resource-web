@@ -3,10 +3,184 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ariana Grande</title>
-    <link rel="stylesheet" href="arianna.css">
+    <link rel="stylesheet" href="ariana.css">
 </head>
 <body>
-    <h1>Ariana Grande</h1>
+    <br>
     
+    <div class="container">
+        <h1>Ariana Grande</h1>
+
+        <div class="slideshow-container" id="slideshow">
+            <div class="slide"><img src="ariana-img/ariana1.jpg" alt="ariana1"></div>
+            <div class="slide"><img src="ariana-img/ariana2.jpg" alt="ariana2"></div>
+            <div class="slide"><img src="ariana-img/ariana3.jpg" alt="ariana3"></div>
+            <button class="prev" onclick="changeSlide(-1)">❮</button>
+            <button class="next" onclick="changeSlide(1)">❯</button>
+        </div>
+
+        <br>
+        <div id="break2"> </div>
+        <h2>A L B U M S</h2>
+        <div id="break2"> </div>
+        <h3 onclick="toggleSongs('yours-truly')">Yours Truly (2013)</h3>
+        <ul id="yours-truly" class="songs-list">
+            <li>1. Honeymoon Avenue</li>
+            <li>2. Baby I</li>
+            <li>3. Right There</li>
+            <li>4. Tattooed Heart</li>
+            <li>5. Lovin' It</li>
+            <li>6. Piano</li>
+            <li>7. Daydreamin'</li>
+            <li>8. The Way</li>
+            <li>9. You'll Never Know</li>
+            <li>10. Almost  Is Never Enough</li>
+            <li>11. Popular Song</li>
+            <li>12. Better Left Unsaid</li>
+        </ul>
+
+        <h3 onclick="toggleSongs('my-everything')">My Everything (2015)</h3>
+        <ul id="my-everything" class="songs-list">
+            <li>1. Intro</li>
+            <li>2. Problem</li>
+            <li>3. One Last Time</li>
+            <li>4. Why Try</li>
+            <li>5. Break Free</li>
+            <li>6. Best Mistake</li>
+            <li>7. Be My Baby</li>
+            <li>8. Break Your Heart Right Back</li>
+            <li>9. Love Me Harder</li>
+            <li>10. Just A Little Bit Of Your Heart</li>
+            <li>11. Hand On Me</li>
+            <li>12. My Everything</li>
+        </ul>
+
+        <h3 onclick="toggleSongs('dangerous-woman')">Dangerous Woman (2016)</h3>
+        <ul id="dangerous-woman" class="songs-list">
+            <li>1. Moonlight</li>
+            <li>2. Dangerous Women</li>
+            <li>3. Be Alright</li>
+            <li>4. Into You</li>
+            <li>5. Side To Side</li>
+            <li>6. Let Me Love You</li>
+            <li>7. Greedy</li>
+            <li>8. Leave Me Lonely</li>
+            <li>9. Everyday</li>
+            <li>10. Sometimes</li>
+            <li>11. I Don't Care</li>
+            <li>12. Bad Decisions</li>
+            <li>13. Touch It</li>
+            <li>14. Knew Better/Forever Boy</li>
+            <li>15. Thinking Bout You</li>
+            <li>16. Step On Up</li>
+            <li>17. Jason's Song(Gave It Away)</li>
+        </ul>
+
+        <h3 onclick="toggleSongs('sweetener')">Sweetener (2018)</h3>
+        <ul id="sweetener" class="songs-list">
+            <li>1. raindrops (an angel cried)</li>
+            <li>2. blazed (feat. Pharrell Williams)</li>
+            <li>3. the light is coming (feat. Nicki Minaj)</li>
+            <li>4. R.E.M</li>
+            <li>5. God is a woman</li>
+            <li>6. sweetener</li>
+            <li>7. successful</li>
+            <li>8. everytime</li>
+            <li>9. breathin</li>
+            <li>10. no tears left to cry</li>
+            <li>11. borderline (feat. Missy Elliott)</li>
+            <li>12. better off</li>
+            <li>13. goodnight n go</li>
+            <li>14. pete davidson</li>
+            <li>15. get well soon</li>
+        </ul>
+
+        <h3 onclick="toggleSongs('thank-u-next')">thank u, next(2019)</h3>
+        <ul id="thank-u-next" class="songs-list">
+            <li>1. imagine</li>
+            <li>2. needy</li>
+            <li>3. NASA</li>
+            <li>4. bloodline</li>
+            <li>5. fake smile</li>
+            <li>6. bad idea</li>
+            <li>7. make up</li>
+            <li>8. ghostin</li>
+            <li>9. in my head</li>
+            <li>10. 7 rings</li>
+            <li>11. thank u, next</li>
+            <li>12. break up with your girlfriend, i'm bored</li>
+          
+        </ul>
+
+        <h3 onclick="toggleSongs('positions')">Positions (2020)</h3>
+        <ul id="positions" class="songs-list">
+            <li>1. shut up</li>
+            <li>2. 34+35</li>
+            <li>3. motive (with Doja Cat)</li>
+            <li>4. just like magic</li>
+            <li>5. off the table (with The Weeknd)</li>
+            <li>6. six thirty</li>
+            <li>7. saftey net (feat. Ty Dolla $ign)</li>
+            <li>8. my hair</li>
+            <li>9. nasty</li>
+            <li>10. west side</li>
+            <li>11. love language</li>
+            <li>12. positions</li>
+            <li>13. obvious</li>
+            <li>14. pov</li>
+          
+        </ul>
+
+        <h3 onclick="toggleSongs('eternal-sunshine')">eternal sunshine (2024)</h3>
+        <ul id="eternal-sunshine" class="songs-list">
+            <li>1. intro (end of the world)</li>
+            <li>2. bye</li>
+            <li>3. don't wanna break up again</li>
+            <li>4. Saturn Returns Interlude</li>
+            <li>5. eternal sunshine</li>
+            <li>6. supernatural</li>
+            <li>7. true story</li>
+            <li>8. the boy is mine</li>
+            <li>9. yes, and?</li>
+            <li>10. we can't be friends (wait for your love)</li>
+            <li>11. i wish i hated you</li>
+            <li>12. imperfect for you</li>
+            <li>13. ordinary things (feat. Nonna)</li>
+          
+        </ul>
+        <br>
+
+    </div>
+    <br>
+    <div id="break"> </div>
+    <h2>C A R E E R</h2>
+    <div id="break2"> </div>
+    <h4>Before Fame</h4>
+    <div class="sabrina-before-fame">
+        <img class="sabrina-before-fame" src="ariana-img/ariana-before-fame.png" alt="">
+        <p class="paragraphs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, expedita. Tenetur corporis, esse necessitatibus, odit inventore ipsa praesentium voluptatum reprehenderit dicta modi officiis ullam nihil? Sunt assumenda non blanditiis dolor!</p>
+    </div>
+    <div id="break"> </div>
+    <h4>Breakthrough</h4>
+    <div class="sabrina-breakthrough">
+        <p class="paragraphs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, expedita. Tenetur corporis, esse necessitatibus, odit inventore ipsa praesentium voluptatum reprehenderit dicta modi officiis ullam nihil? Sunt assumenda non blanditiis dolor!</p>
+        <img class="sabrina-breakthrough" src="ariana-img/ariana-breakthrough.jpg" alt="">
+       
+    </div>
+    <div id="break"> </div>
+    <h4>Awards</h4>
+    <div class="sabrina-awards">
+        <img class="sabrina-awards" src="ariana-img/ariana-awards.jpg" alt="">
+        <p class="paragraphs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, expedita. Tenetur corporis, esse necessitatibus, odit inventore ipsa praesentium voluptatum reprehenderit dicta modi officiis ullam nihil? Sunt assumenda non blanditiis dolor!</p>
+    </div>
+    <div id="break"> </div>
+    <h4>Tours</h4>
+    <div class="sabrina-tour">
+        <p class="paragraphs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, expedita. Tenetur corporis, esse necessitatibus, odit inventore ipsa praesentium voluptatum reprehenderit dicta modi officiis ullam nihil? Sunt assumenda non blanditiis dolor!</p>
+        <img class="sabrina-tour" src="ariana-img/ariana-tour.jpg" alt="">
+    </div>
+    <div id="break"> </div>
+    
+    <script src="ariana.js"> </script>
 </body>
 </html>

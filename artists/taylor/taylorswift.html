@@ -6,6 +6,410 @@
     <link rel="stylesheet" href="taylor.css">
 </head>
 <body>
-    <h1>Taylor Swift</h1>
+    <br>
+    
+    <div class="container">
+        <h1>Taylor Swift</h1>
+
+        <div class="slideshow-container" id="slideshow">
+            <div class="slide"><img src="taylor-img/taylor1.jpg" alt="taylor1"></div>
+            <div class="slide"><img src="taylor-img/taylor2.png" alt="taylor2"></div>
+            <div class="slide"><img src="taylor-img/taylor3.png" alt="taylor3"></div>
+            <button class="prev" onclick="changeSlide(-1)">❮</button>
+            <button class="next" onclick="changeSlide(1)">❯</button>
+        </div>
+
+        <br>
+        <div id="break2"> </div>
+        <h2>A L B U M S</h2>
+        <div id="break2"> </div>
+        <h3 onclick="toggleSongs('taylor-swift')">Taylor Swift (2006)</h3>
+        <ul id="taylor-swift" class="songs-list">
+            <li>1. Tim McGraw</li>
+            <li>2. Picture To Burn</li>
+            <li>3. Teardrops On My Guitar</li>
+            <li>4. A Place in the World</li>
+            <li>5. Cold As You</li>
+            <li>6. The Outside</li>
+            <li>7. Tied Together with a Smile</li>
+            <li>8. Stay Beautiful</li>
+            <li>9. Should've Said No</li>
+            <li>10. Mary's Song (Oh My My My)</li>
+            <li>11. Our Song</li>
+            <li>12. I'm Only Me When I'm With You</li>
+            <li>13. Invisible</li>
+            <li>14. A Perfectly Good Heart</li>
+            <li>15. Teardrops on My Guitar</li>
+        </ul>
+
+        <h3 onclick="toggleSongs('fearless')">Fearless (2008)</h3>
+        <ul id="fearless" class="songs-list">
+            <li>1. Fearless</li>
+            <li>2. Fifteen</li>
+            <li>3. Love Story</li>
+            <li>4. Hey Stephen</li>
+            <li>5. White Horse</li>
+            <li>6. You Belong With Me</li>
+            <li>7. Breathe</li>
+            <li>8. Tell Me Why</li>
+            <li>9. You're Not Sorry</li>
+            <li>10. The Way I Loved You </li>
+            <li>11. Forever & Always</li>
+            <li>12. The Best Day</li>
+            <li>13. Change</li>
+        </ul>
+
+        <h3 onclick="toggleSongs('speak-now')">Speak Now (2010)</h3>
+        <ul id="speak-now" class="songs-list">
+            <li>1. Mine</li>
+            <li>2. Sparks Fly</li>
+            <li>3. Back To December</li>
+            <li>4. Speak Now</li>
+            <li>5. Dear John</li>
+            <li>6. Mean</li>
+            <li>7. The Story Of Us</li>
+            <li>8. Never Grow Up</li>
+            <li>9. Enchanted</li>
+            <li>10. Better Than Revenge</li>
+            <li>11. Innocent</li>
+            <li>12. Haunted</li>
+            <li>13. Last Kiss</li>
+            <li>14. Long Live</li>
+            
+        </ul>
+
+        <h3 onclick="toggleSongs('red')">Red (2012)</h3>
+        <ul id="red" class="songs-list">
+            <li>1. State Of Grace</li>
+            <li>2. Red</li>
+            <li>3. Treacherous</li>
+            <li>4. I Knew You Were Trouble.</li>
+            <li>5. All Too Well</li>
+            <li>6. 22</li>
+            <li>7. I Almost Do</li>
+            <li>8. We Are Never Ever Getting Back Together</li>
+            <li>9. Stay Stay Stay</li>
+            <li>10. The Last Time</li>
+            <li>11. Holy Ground</li>
+            <li>12. Sad Beautiful Tragic</li>
+            <li>13. The Lucky One</li>
+            <li>14. Everything Has Changed</li>
+            <li>15. Starlight</li>
+            <li>16. Begin Again</li>
+        </ul>
+
+        <h3 onclick="toggleSongs('1989')">1989 (2014)</h3>
+        <ul id="1989" class="songs-list">
+            <li>1. Welcome To New York</li>
+            <li>2. Blank Space</li>
+            <li>3. Style</li>
+            <li>4. Out Of The Woods</li>
+            <li>5. All You Had To Do Was Stay</li>
+            <li>6. Shake It Off</li>
+            <li>7. I Wish You Would</li>
+            <li>8. Bad Blood</li>
+            <li>9. Wildest Dreams</li>
+            <li>10. How You Get The Girl</li>
+            <li>11. This Love</li>
+            <li>12. I Know Places</li>
+            <li>13. Clean</li>
+          
+        </ul>
+
+        <h3 onclick="toggleSongs('reputation')">reputation (2017)</h3>
+        <ul id="reputation" class="songs-list">
+            <li>1. ...Ready For It?</li>
+            <li>2. End Game</li>
+            <li>3. I Did Something Bad</li>
+            <li>4. Don't Blame Me</li>
+            <li>5. Delicate</li>
+            <li>6. Look What You Made Me Do</li>
+            <li>7. So It Goes...</li>
+            <li>8. Gorgeous</li>
+            <li>9. Getaway Car</li>
+            <li>10. King Of My Heart</li>
+            <li>11. Dancing With Our Hands Tied</li>
+            <li>12. Dress</li>
+            <li>13. This Is Why Wee Can't Have Nice Things</li>
+            <li>14. Call It What You Want</li>
+          
+        </ul>
+
+        <h3 onclick="toggleSongs('lover')">Lover (2019)</h3>
+        <ul id="lover" class="songs-list">
+            <li>1. I Forgot That You Existed</li>
+            <li>2. Cruel Summer</li>
+            <li>3. Lover</li>
+            <li>4. The Man</li>
+            <li>5. The Archer</li>
+            <li>6. I Think He Knows</li>
+            <li>7. Miss Americana & The Heartbreak Prince</li>
+            <li>8. Paper Rings</li>
+            <li>9. Cornelia Street</li>
+            <li>10. Death By A Thousand Cuts</li>
+            <li>11. London Boy</li>
+            <li>12. Soon You'll Get Better (feat. The Chicks)</li>
+            <li>13. False God</li>
+            <li>14. You Need To Calm Down</li>
+            <li>15. Afterglow</li>
+            <li>16. ME! (feat. Brendon Urie of Panic! At The Disco)</li>
+            <li>17. It's Nice To Have A Friend</li>
+            <li>18. Daylight</li>
+          
+        </ul>
+
+        <h3 onclick="toggleSongs('folklore')">folklore (2020)</h3>
+        <ul id="folklore" class="songs-list">
+            <li>1. the 1</li>
+            <li>2. cardigan</li>
+            <li>3. the last great american dynasty</li>
+            <li>4. exile (feat. Bon Iver)</li>
+            <li>5. my tears ricochet</li>
+            <li>6. mirrorball</li>
+            <li>7. seven</li>
+            <li>8. august</li>
+            <li>9. this is me trying</li>
+            <li>10. illicit affairs</li>
+            <li>11. invisible string</li>
+            <li>12. mad woman</li>
+            <li>13. epiphany</li>
+            <li>14. betty</li>
+            <li>15. peace</li>
+            <li>16. hoax</li>
+          
+        </ul>
+
+        <h3 onclick="toggleSongs('evermore')">evermore (2020)</h3>
+        <ul id="evermore" class="songs-list">
+            <li>1. willow</li>
+            <li>2. champagne problems</li>
+            <li>3. gold rush</li>
+            <li>4. 'tis the damn season</li>
+            <li>5. tolerate it</li>
+            <li>6. no body, no crime (feat. HAIM)</li>
+            <li>7. happiness</li>
+            <li>8. dorothea</li>
+            <li>9. coney island (feat. The National)</li>
+            <li>10. ivy</li>
+            <li>11. cowboy like me</li>
+            <li>12. long story short</li>
+            <li>13. marjorie</li>
+            <li>14. closure</li>
+            <li>15. evermore (feat. Bon Iver)</li>
+          
+        </ul>
+
+        <h3 onclick="toggleSongs('fearlessTV')">Fearless(Taylor's Version) (2021)</h3>
+        <ul id="fearlessTV" class="songs-list">
+            <li>1. Fearless (TV)</li>
+            <li>2. Fifteen (TV)</li>
+            <li>3. Love Story (TV)</li>
+            <li>4. Hey Stephen (TV)</li>
+            <li>5. White Horse (TV)</li>
+            <li>6. You Belong With Me (TV)</li>
+            <li>7. Breathe (TV)</li>
+            <li>8. Tell Me Why (TV)</li>
+            <li>9. You're Not Sorry (TV)</li>
+            <li>10. The Way I Loved You (TV)</li>
+            <li>11. Forever & Always (TV)</li>
+            <li>12. The Best Day (TV)</li>
+            <li>13. Change (TV)</li>
+            <li>14. Jump Then Fall (TV)</li>
+            <li>15. Untouchable (TV)</li>
+            <li>16. Forever & Always (Piano Version)(TV)</li>
+            <li>17. Come In With The Rain (TV)</li>
+            <li>18. Superstar (TV)</li>
+            <li>19. The Other Side Of The Door (TV)</li>
+            <li>20. Today Was A Fairytale (TV)</li>
+            <li>21. You All Over Me (feat. Maren Morris)(TV)(From The Vault) </li>
+            <li>22. Mr. Perfectly Fine (TV)(From The Vault)</li>
+            <li>23. We Were Happy (TV)(From The Vault)</li>
+            <li>24. That's When (feat. Keith Urban)(TV)(From The Vault)</li>
+            <li>25. Don't You (TV)(From The Vault)</li>
+            <li>26. Bye Bye Baby (TV)(From The Vault)</li>
+
+        </ul>
+
+        <h3 onclick="toggleSongs('redTV')">Red(Taylor's Version) (2021)</h3>
+        <ul id="redTV" class="songs-list">
+            <li>1. State Of Grace (TV)</li>
+            <li>2. Red (TV)</li>
+            <li>3. Treacherous (TV)</li>
+            <li>4. I Knew You Were Trouble (TV)</li>
+            <li>5. All Too Well (TV)</li>
+            <li>6. 22 (TV)</li>
+            <li>7. I Almost Do (TV)</li>
+            <li>8. We Are Never Ever Getting Back Together (TV)</li>
+            <li>9. Stay Stay Stay (TV)</li>
+            <li>10. The Last Time (feat. Gary Lightbody of Snow Patrol)(TV)</li>
+            <li>11. Holy Ground (TV)</li>
+            <li>12. Sad Beautiful Tragic (TV)</li>
+            <li>13. The Lucky One (TV)</li>
+            <li>14. Everything Has Changed (feat. Ed Sheeran)(TV)</li>
+            <li>15. Starlight (TV)</li>
+            <li>16. Begin Again (TV)</li>
+            <li>17. The Moment I Knew (TV)</li>
+            <li>18. Come Back...Be Here (TV)</li>
+            <li>19. Girl At Home (TV)</li>
+            <li>20. State Of Grace (Acoustic Version)(TV)</li>
+            <li>21. Ronan (TV)</li>
+            <li>22. Better Man (TV)(From The Vault)</li>
+            <li>23. Nothing New (feat. Phoebe Bridgers)(TV)(From The Vault) </li>
+            <li>24. Babe (TV)(From The Vault)</li>
+            <li>25. Message In A Bottle (TV)(From The Vault)</li>
+            <li>26. I Bet You Think About Me (feat. Chris Stapleton)(TV)(From The Vault)</li>
+            <li>27. Forever Winter (TV)(From The Vault)</li>
+            <li>28. Run (feat. Ed Sheeran)(TV)(From The Vault)</li>
+            <li>29. The Very First Night (TV)(From The Vault)</li>
+            <li>30. All Too Well (10 Minute Version)(TV)(From The Vault)</li>
+
+        </ul>
+
+        <h3 onclick="toggleSongs('midnights')">Midnights (2022)</h3>
+        <ul id="midnights" class="songs-list">
+            <li>1. Lavender Haze</li>
+            <li>2. Maroon</li>
+            <li>3. Anti-Hero</li>
+            <li>4. Snow On The Beach (feat. Lana Del Rey)</li>
+            <li>5. You're On Your Own, Kid</li>
+            <li>6. Midnight Rain</li>
+            <li>7. Question...?</li>
+            <li>8. Vigilante Shit</li>
+            <li>9. Bejeweled</li>
+            <li>10. Labyrinth</li>
+            <li>11. Karma</li>
+            <li>12. Sweet Nothing</li>
+            <li>13. Mastermind</li>
+          
+        </ul>
+
+
+        <h3 onclick="toggleSongs('speak-nowTV')">Speak Now(Taylor's Version) (2023)</h3>
+        <ul id="speak-nowTV" class="songs-list">
+            <li>1. Mine (TV)</li>
+            <li>2. Sparks Fly (TV)</li>
+            <li>3. Back To December (TV)</li>
+            <li>4. Speak Now (TV)</li>
+            <li>5. Dear John (TV)</li>
+            <li>6. Mean (TV)</li>
+            <li>7. The Story Of Us (TV)</li>
+            <li>8. Never Grow Up (TV)</li>
+            <li>9. Enchanted (TV)</li>
+            <li>10. Better Than Revenge (TV)</li>
+            <li>11. Innocent (TV)</li>
+            <li>12. Haunted (TV)</li>
+            <li>13. Last Kiss (TV)</li>
+            <li>14. Long Live (TV)</li>
+            <li>15. Ours (TV)</li>
+            <li>16. Superman (TV)</li>
+            <li>17. Electric Touch (feat. Fall Out Boy)(TV)(From The Vault)</li>
+            <li>18. When Emma Falls in Love (TV)(From The Vault)</li>
+            <li>19. I Can See You (TV)(From The Vault)</li>
+            <li>20. Castles Crumbling (feat. Hayley Williams)(TV)(From The Vault)</li>
+            <li>21. Foolish One (TV)(From The Vault)</li>
+            <li>22. Timeless (TV)(From The Vault)</li>
+            
+        </ul>
+
+        <h3 onclick="toggleSongs('1989TV')">1989(Taylor's Version) (2023)</h3>
+        <ul id="1989TV" class="songs-list">
+            <li>1. Welcome To New York (TV)</li>
+            <li>2. Blank Space (TV)</li>
+            <li>3. Style (TV)</li>
+            <li>4. Out Of The Woods (TV)</li>
+            <li>5. All You Had To Do Was Stay (TV)</li>
+            <li>6. Shake It Off (TV)</li>
+            <li>7. I Wish You Would (TV)</li>
+            <li>8. Bad Blood (TV)</li>
+            <li>9. Wildest Dreams (TV)</li>
+            <li>10. How You Get The Girl (TV)</li>
+            <li>11. This Love (TV)</li>
+            <li>12. I Know Places (TV)</li>
+            <li>13. Clean (TV)</li>
+            <li>14. Wonderland (TV)</li>
+            <li>15. You Are In Love (TV)</li>
+            <li>16. New Romantics (TV)</li>
+            <li>17. "Slut!" (TV)(From The Vault)</li>
+            <li>18. Say Don't Go (TV)(From The Vault)</li>
+            <li>19. Now That We Don't Talk (TV)(From The Vault)</li>
+            <li>20. Suburban Legends (TV)(From The Vault)</li>
+            <li>21. Is It Over Now? (TV)(From The Vault)</li>
+        </ul>
+
+        <h3 onclick="toggleSongs('ttpd')">THE TORTURED POETS DEPARTMENT (2024)</h3>
+        <ul id="ttpd" class="songs-list">
+            <li>1. Fortnight (feat. Post Malone)</li>
+            <li>2. The Tortured Poets Department</li>
+            <li>3. My Boy Only Breaks His Favorite Toys</li>
+            <li>4. Down Bad</li>
+            <li>5. So long, London</li>
+            <li>6. But Daddy I love Him</li>
+            <li>7. Fresh Out The Slammer</li>
+            <li>8. Florida!!! (feat. Florence + The Machine)</li>
+            <li>9. Guilty as Sin?</li>
+            <li>10. Who's Afraid of Little Old Me?</li>
+            <li>11. I Can Fix Him(No Really I Can)</li>
+            <li>12. loml</li>
+            <li>13. I Can Do It With a Broken Heart</li>
+            <li>14. The Smallest Man Who Ever Lived</li>
+            <li>15. The Alchemy</li>
+            <li>16. Clara Bow</li>
+          
+        </ul>
+
+        <h3 onclick="toggleSongs('ttpd:anthology')">THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY (2024)</h3>
+        <ul id="ttpd:anthology" class="songs-list">
+            <li>17. The Black Dog</li>
+            <li>18. imgonnagetyouback</li>
+            <li>19. The Albatross</li>
+            <li>20. Chloe or Sam or Sophia or Marcus</li>
+            <li>21. How Did It End?</li>
+            <li>22. So High School</li>
+            <li>23. I Hate It Here</li>
+            <li>24. thanK you aIMee</li>
+            <li>25. I Look in People's Windows</li>
+            <li>26. The Prophecy</li>
+            <li>27. Cassandra</li>
+            <li>28. Peter</li>
+            <li>29. The Bolter</li>
+            <li>30. Robin</li>
+            <li>31. The Manuscript</li>
+          
+        </ul>
+        <br>
+
+    </div>
+    <br>
+    <div id="break"> </div>
+    <h2>C A R E E R</h2>
+    <div id="break2"> </div>
+    <h4>Before Fame</h4>
+    <div class="sabrina-before-fame">
+        <img class="sabrina-before-fame" src="taylor-img/taylor-before-fame.png" alt="">
+        <p class="paragraphs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, expedita. Tenetur corporis, esse necessitatibus, odit inventore ipsa praesentium voluptatum reprehenderit dicta modi officiis ullam nihil? Sunt assumenda non blanditiis dolor!</p>
+    </div>
+    <div id="break"> </div>
+    <h4>Breakthrough</h4>
+    <div class="sabrina-breakthrough">
+        <p class="paragraphs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, expedita. Tenetur corporis, esse necessitatibus, odit inventore ipsa praesentium voluptatum reprehenderit dicta modi officiis ullam nihil? Sunt assumenda non blanditiis dolor!</p>
+        <img class="sabrina-breakthrough" src="taylor-img/taylor-breakthrough.jpg" alt="">
+       
+    </div>
+    <div id="break"> </div>
+    <h4>Awards</h4>
+    <div class="sabrina-awards">
+        <img class="sabrina-awards" src="taylor-img/taylor-awards.png" alt="">
+        <p class="paragraphs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, expedita. Tenetur corporis, esse necessitatibus, odit inventore ipsa praesentium voluptatum reprehenderit dicta modi officiis ullam nihil? Sunt assumenda non blanditiis dolor!</p>
+    </div>
+    <div id="break"> </div>
+    <h4>Tours</h4>
+    <div class="sabrina-tour">
+        <p class="paragraphs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, expedita. Tenetur corporis, esse necessitatibus, odit inventore ipsa praesentium voluptatum reprehenderit dicta modi officiis ullam nihil? Sunt assumenda non blanditiis dolor!</p>
+        <img class="sabrina-tour" src="taylor-img/taylor-tour.png" alt="">
+    </div>
+    <div id="break"> </div>
+    
+    <script src="taylor.js"> </script>
+
 </body>
 </html>

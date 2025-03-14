@@ -22,7 +22,3 @@ let slideIndex = 0;
     
 
         document.addEventListener("DOMContentLoaded", () => showSlide(slideIndex));
-
-
-
-        
