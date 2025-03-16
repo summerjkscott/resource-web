@@ -129,3 +129,46 @@ h3:hover{
     width: 100%;
     height: 50px;
 }
+
+.button-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ede9e1;
+}
+.button {
+    
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #ede9e1;
+    background-color: #3255a4;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover {
+    color: #3255a4;
+    background-color: #ede9e1;
+}
+
+.citations{
+    color: #3255a4;
+    text-decoration: none;
+}
+
+.citations:hover{
+    text-decoration: underline;
+    color: #ff48b0;
+}
+
+.videos{
+    color: #ff48b0;
+}
+.source-list{
+    color: #3255a4;
+    text-decoration: none;
+}
+.source-list:hover {
+    color: #ff48b0;
+    text-decoration: underline;
+}
