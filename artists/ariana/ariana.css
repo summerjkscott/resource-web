@@ -2,7 +2,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: #3255a4;
-    background: #ede9e1;
+    background: #F5EBDF;
 }
 
 ul{
@@ -50,13 +50,13 @@ ul{
 
 .prev {
     left: 10px;
-    color: #ede9e1;
+    color: #F5EBDF;
     background-color: #3255a4;
 }
 
 .next {
     right: 10px;
-    color: #ede9e1;
+    color: #F5EBDF;
     background-color: #3255a4;
 }
 
@@ -133,14 +133,14 @@ h3:hover{
 .button-container {
     text-align: center;
     padding: 20px;
-    background-color: #ede9e1;
+    background-color: #F5EBDF;
 }
 
 .button {
     
     padding: 10px 20px;
     font-size: 18px;
-    color: #ede9e1;
+    color: #F5EBDF;
     background-color: #3255a4;
     border: none;
     border-radius: 5px;
@@ -149,7 +149,7 @@ h3:hover{
 }
 .button:hover {
     color: #3255a4;
-    background-color: #ede9e1;
+    background-color: #F5EBDF;
 }
 
 .citations{
